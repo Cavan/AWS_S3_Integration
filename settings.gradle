@@ -1,0 +1,2 @@
+rootProject.name='AmazonS3 Test'
+include ':app'
