@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"amazons3test9d4e8037": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"S3TestBucket": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

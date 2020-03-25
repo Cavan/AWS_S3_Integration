@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".S3DeleteFile"></activity>
+        <activity android:name=".S3ListFiles" />
+        <activity android:name=".S3Download" />
+        <activity android:name=".S3Upload" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
